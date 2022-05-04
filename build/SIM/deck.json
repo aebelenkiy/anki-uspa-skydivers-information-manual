@@ -1392,6 +1392,272 @@
             "tags": [
                 "SIM::Category_E_Quiz"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to change the direction of canopy flight while conserving the most altitude?<br><br>{{c1::Braked turns.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "c)Cj,ErZl.",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What happens if a canopy is controlled too deeply in brakes?<br><br>{{c1::It stalls.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "i9sExg,?a?",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe the difference between flaring from half brakes and full glide?<br><br>Flaring from half brakes requires a {{c1::quicker}} stroke, the stroke is {{c2::shorter}}, and stalls occur {{c3::sooner}}.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "JI%_pKWW+<",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does the half-braked position affect the canopy's flight?<br><br>{{c1::Slows descent, changes glide.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "l$Q!|x`%([",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is heading corrected during a track?<br><br>{{c1::Turn head slightly towards direction of the turn.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "J]L~{rAi2[",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When making tracking jumps from a large plane, why is it important to track perpendicular to the jump run?<br><br>{{c1::To avoid other groups ahead and behind.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "rH;T5bz8W.",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The ground speed of a jump aircraft with an airspeed of {{c2::90}} knots when flying against a 50-knot headwind on jump run is {{c1::40}} knots.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "rQuZw>Ry8-",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can jumpers assure adequate separation between groups exiting the aircraft?<br><br>{{c1::Gauge separation according to position over the ground.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "sb4yt>9G&i",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the three most important aspects of packing the main canopy?<br><ul><li>{{c1::lines straight and in place in the center}}</li><li>{{c2::slider up}}</li><li>{{c3::tight line stows}}</li></ul><br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pno*?C`c.[",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The RSL is routed correctly when there is a clear path from {{c1::the snap shackle to guide ring.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "q&C(7%;{Ou",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The minimum pull altitude allowed for student skydivers and A license holders is {{c1::3,000}} feet.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "j_V.oq>um&",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The maximum wind speed allowed for student skydivers is {{c1::14}} mph.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "lPcD;OS=#2",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A jumper falling for one minute through upper winds averaging 30 mph from the west will drift {{c1::1/2}} mile to the {{c2::east}}.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "f[zALmxzSD",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the procedure for landing in power lines?<br><ol><li>{{c1::avoid the area early during the descent}}</li><li>{{c2::minimum braked turn necessary to avoid lines}}</li><li>{{c3::land parallel to the wires}}</li><li>{{c4::braked landing}}</li><li>{{c5::prepare for PLF}}</li><li>{{c6::try to touch only one line at a time}}</li><li>{{c7::wait for help and confirmation that the power has been turned off and will remain off until recovery operations are complete}}</li></ol><br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "m}%H#9HRid",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the event of an aircraft emergency with no students or instructors aboard, who should coordinate procedures between the pilot and the other jumpers on the load?<br><br>{{c1::Jumpmaster or spotter.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "cYTcabH3e(",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many jumps are required for the USPA A license?<br><br>{{c1::25}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "peS3m-N#=Y",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does a USPA A license permit a skydiver to do?<br><ul><li>{{c1::jump without supervision}}</li><li>{{c2::pack his or her own main parachute}}</li><li>{{c3::engage in basic group jumps}}</li><li>{{c4::perform water jumps}}</li></ul><br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "i{pM`c#_89",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What should an A-licensed jumper do to regain currency after a ten-week period of inactivity?<br><br>{{c1::Make at least one jump under the supervision of a USPA instructional rating holder.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "Dst#Xql>c1",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What should an A-licensed jumper do to regain currency after a four-month period of inactivity?<br><br>{{c1::Make at least one jump beginning in Category D with a USPA AFF Instructor or in Category B with a USPA IAD Static-Line, or Tandem Instructor before proceeding to unsupervised freefall.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/F\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT F (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "B4u;WIW&Lf",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_F_Quiz"
+            ]
         }
     ]
 }
