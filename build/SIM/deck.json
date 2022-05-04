@@ -1,0 +1,1397 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "9f1369c4-cb40-11ec-85d9-34f39abc1078",
+    "deck_config_uuid": "9f13b7b5-cb40-11ec-8f7a-34f39abc1078",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "9f13b7b5-cb40-11ec-8f7a-34f39abc1078",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 5
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "SIM",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic+",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n\n{{Back}}\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.old.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.old.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.old.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.old.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-pygments-solarized.css\" class=\"anki-code-highlighter\">\n<link rel=\"stylesheet\" href=\"_ch-hljs-solarized.css\" class=\"anki-code-highlighter\">\n<script src=\"_ch-my-highlight.js\" class=\"anki-code-highlighter\"></script>",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Describe how to avoid the propeller(s) when approaching an aircraft?</div>",
+                "Approach fixed-wing aircraft from the rear."
+            ],
+            "flags": 0,
+            "guid": "IN((@+A|m?",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Who is responsible for seat belt use in the aircraft?</div>",
+                "The pilot and each jumper."
+            ],
+            "flags": 0,
+            "guid": "ArM}%7S)Hg",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Why do skydivers first learn to fall stable face to earth (think in terms of the equipment)?</div>",
+                "It is the best position for deployment."
+            ],
+            "flags": 0,
+            "guid": "IXbQR9QXjT",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>What changes during a turn that makes low turns so dangerous?</div>",
+                "The parachute dives."
+            ],
+            "flags": 0,
+            "guid": "l6ENa}`8k]",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>What is the purpose of the landing flare?</div>",
+                "To convert forward speed to lift."
+            ],
+            "flags": 0,
+            "guid": "vKoD_@Mt}p",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you clear a pilot chute hesitation?",
+                "Change body position to modify the air flow over my back."
+            ],
+            "flags": 0,
+            "guid": "ttH]CtlvM6",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>What is the procedure for dealing with twisted lines?</div>",
+                "Before releasing the brakes, spread risers or twist risers to transfer line twist to risers, kick in opposite direction, watch altitude to 2,500 feet."
+            ],
+            "flags": 0,
+            "guid": "I@tNcTqT6J",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>What do you do if the slider stops halfway down on deployment?</div>",
+                "Pump rear risers or steering controls at the bottom of the stroke while watching altitude to 2,500 feet."
+            ],
+            "flags": 0,
+            "guid": "!z56;eMFX",
+            "note_model_uuid": "9f14b547-cb40-11ec-8075-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Seat belts must be fastened during {{c1::movement on the surface (taxi)}}, {{c2::takeoff}}, and {{c3::landing}}.</div><br>",
+                "<a href=\"https://uspa.org/skydiveschool/A\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT A (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "O.B({R*,VK",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>The wind comes from {{c1::ahead}} initially upon exit from the aircraft.</div>",
+                "<a href=\"https://uspa.org/skydiveschool/A\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT A (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "E%>`PgrQ@W",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Landing priorities are:</div><div>A: {{c1::Land with the wing level and flying in a straight line}}<br>B: {{c2::Land in a clear and open area, avoiding obstacles}}<br>C: {{c3::Flare to at least the half-brake position}}</div><br>",
+                "<a href=\"https://uspa.org/skydiveschool/A\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT A (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "mW#dX@n@yL",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Procedure for a hard landing (parachute landing fall or PLF):<br><ul><li>{{c1::feet and knees together}}</li><li>{{c2::hands and elbows in}}</li><li>{{c3::roll on landing}}</li></ul>",
+                "<a href=\"https://uspa.org/skydiveschool/A\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT A (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "GEjOY:q$zJ",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_A_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>In the event of a canopy problem, students should decide and act about executing emergency procedures by {{c1::2,500}} feet.</div>",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "fp;a925b,}",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you address closed end cells during opening?<br><br>{{c1::Pull toggles to flare position and hold (or pull down rear risers and hold)}} and watch altitude. If stubborn, determine controllability with turn and flare by 2,500 feet.",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "RjV>ZISU#A",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you address broken lines or other damage?<br><br>Determine {{c1::controllability and ability to flare}} by 2,500 feet.",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "d-Y)acbQ&*",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you address a good canopy that isn't turning?<br><br>{{c1::Be sure both brakes are released.}}",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "FA]AsJR,y{",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the appropriate action if below {{c2::1,000}} feet without a landable parachute?<br><br>{{c1::Immediately deploy the reserve parachute}}, but not below 1,000 feet with an SOS system.",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "uSIevp1u+l",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If the pilot chute goes over the front of the canopy after it has opened, how can you tell if it’s a malfunction?<br><br>It is probably safe to land if the canopy {{c1::flares and turns correctly.}}",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "KsP4hgK>#!",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the correct response to an open container in freefall using a hand-deployed system?<br><br>{{c1::No more than two tries or two seconds to locate and deploy the main pilot chute}}; if no success, cut away and deploy the reserve.",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "msUCw2%OPP",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What do you do if the pilot chute extracts the deployment bag from the parachute container but the deployment bag fails to release the parachute canopy for inflation?<br><br>{{c1::Cut away and deploy the reserve.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "KkAZ]|HDZM",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What do you do if part of the deployed parachute is caught on the jumper or the equipment (horseshoe)?<br><br>{{c1::Cut away and deploy the reserve.}}",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "tW4GXqG]LF",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The three legs of the canopy landing pattern with relation to the wind direction are {{c1::downwind (with the wind)}}, {{c2::base (across the wind but downwind of the target)}}, {{c3::and final (into the wind)}}.",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "rq,a?u,8Yg",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is it undesirable to land off the end of a runway?<br><br>{{c1::Approaching and departing aircraft.}}",
+                "<a href=\"https://uspa.org/skydiveschool/B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT B (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "lBLZE&L7J@",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_B_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In flat and stable freefall at terminal velocity, an average jumper will fall {{c2::1,000}} feet every {{c1::5.5}} seconds.",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pBYZ,}KI(7",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the correct procedure for recovering from instability to the belly-to-earth position?<br><br>{{c1::Altitude, arch, legs, relax.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "QzeT/s$0gr",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is it better to pull at the planned altitude or to fall lower to get stable before pulling?<br><br>{{c1::Pull at the planned altitude, regardless of stability.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "t/[>I?oB]0",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The purpose of the wave-off before deployment is to {{c1::signal to other jumpers}}.",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "qei<a_c7^,",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What part of the landing pattern is most dangerous to skydivers?<br><br>{{c1::The intersection of the base and final approach legs.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "D40D?^M4cT",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do higher wind speeds affect the planned landing pattern as compared to the pattern plan for a calm day?<br><ul><li>Places the planned pattern entry point {{c1::farther upwind}}</li><li>Lengthens the {{c2::downwind leg}}</li><li>{{c3::Shortens}} the base leg</li><li>{{c4::Shortens}} the final approach</li></ul>",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "k0T(nXpyda",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In moderately strong winds, how far downwind of an obstacle would you expect to find turbulence?<br><br>{{c1::10-20 times the height of the obstacle.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "bz(]KzAR7Y",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best procedure to use when flying your canopy in turbulent conditions?<br><br>{{c1::Keep the canopy flying in a straight line at full flight (or as directed by the owner’s manual).}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "vo!]6h-HYp",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is it important to protect your parachute system operation handles when in and around the aircraft?<br><br>{{c1::Keeps them in place and prevents accidental or premature deployment.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "H_rIbPVo7m",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the equipment pre-flight strategy to use before putting on your gear?<br><br>{{c1::Top to bottom, back to front.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "yPADs+k(8:",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The three-ring main canopy release system disconnects {{c2::the main parachute from the harness}} by pulling {{c1::the cables to release the cloth loop.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "P3sNG;%JY[",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you know if a reserve parachute has been packed by an FAA rigger within the last 180 days?<br><br>{{c1::Information found on the reserve packing data card.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "r23!_q)X52",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How do you know the reserve container has not been opened since the FAA rigger last closed it?<br><br>{{c1::Rigger’s packing seal on the reserve ripcord.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "r}s}TNSrzh",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If the surface winds are blowing from west to east, you will face {{c1::east}} to fly the {{c2::downwind}} leg of the landing pattern.",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "eX{?B,GBfh",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wing loading is calculated by dividing {{c1::the exit weight by the square footage or the canopy.}}",
+                "<a href=\"https://uspa.org/skydiveschool/C\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "P~_*b/I_ml",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_C_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "With the same wing loading, a {{c2::smaller}} canopy of the same model will exhibit more {{c1::lively}} performance characteristics.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/C#B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "K_tyiW.}E9",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::ISP_Category_C"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When to attempt a stand-up landing:<br><ul><li>{{c1::when you’re in control of all the variables}}</li><li>{{c2::after a good flare at the appropriate altitude}}</li></ul>",
+                "<a href=\"https://uspa.org/skydiveschool/C#B\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT C (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "iI0wqd`|]G",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::ISP_Category_C"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "For planned deployment initiation at 3,000 feet, an average-sized jumper should fall for approximately {{c1::15}} seconds after exiting at 5,000 feet.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "J~`ecb73<^",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the most appropriate response to loss of heading control in freefall?<br><br>{{c1::Altitude, arch, legs, relax.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "tb$AM)+zjb",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to avoid a canopy collision when turning?<br><br>{{c1::Look first in the direction of the turn.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "b;IAL,CeYu",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the quickest and safest way to change heading immediately after opening?<br><br>{{c1::Rear riser turn with the brakes still set.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "rGMYd1RP{/",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you steer a parachute that has a broken brake line?<br><br>{{c1::Release both brakes and use the back risers to steer.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "P+$CUt*-[k",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How would you prepare to land a canopy using the rear risers to flare?<br><br>{{c1::Practice with rear-riser flares at altitude with that canopy during a routine jump.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "Gn{tlK=VF|",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the procedure for landing on a building?<br><ol><li>{{c1::Disconnect the RSL (if time)}}</li><li>{{c2::Contact the building feet first}}</li><li>{{c3::PLF}}</li><li>{{c4::Cut away}}</li><li>Wait for competent help</li></ol>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "JyqU}WZE)I",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The purpose of the automatic activation device (AAD) is to {{c1::back up the jumper’s emergency procedures.}}",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "iO{QM+Ox3h",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the \"check of threes\"?<br><ul><li>{{c1::three-ring release system for correct assembly and RSL}}</li><li>{{c2::three points of harness attachment for snap assembly or correct routing and adjustment}}</li><li>{{c3::three operation handles: main activation, cutaway, reserve}}</li></ul><br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "lKkD>[:A)`",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What must the spotter do to determine what is directly underneath the aircraft while on jump run?<br><br>{{c1::Place head completely outside the aircraft and look straight down.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "s_>{L!0KaP",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How far horizontally must jumpers be from any cloud below 10,000 feet MSL?<br><br>{{c1::2,000 feet}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "v).E1%`0.H",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How far horizontally must jumpers be from any cloud at 10,000 feet MSL and above?<br><br>{{c1::one mile}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pYQ=]L>})G",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The minimum visibility requirement below {{c1::10,000}} feet MSL is {{c2::three}} miles.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "xjt,]Q[AM+",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the minimum visibility requirements at and above 10,000 feet MSL?<br><br>{{c1::five miles}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "M/KmW,=IEt",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who is responsible for a jumper observing cloud clearance requirements?<br><br>{{c1::Jumper and pilot}}.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "p#S[|voHV)",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "According to the BSRs, what is the latest a student may jump?<br><br>{{c1::All student jumps must be completed by sunset.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "ATtQezTLqH",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the technique for determining the point straight below the aircraft during jump run?<br><br>{{c1::Determine two lines from the horizon, one ahead and one abreast, and find the intersection of those two lines.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "nbg3uQ&x#9",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Jumpers must look for {{c1::clouds and other aircraft}} below before exiting the aircraft.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/D\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT D (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "q|l*1p>8Qy",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_D_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A jumper's fall rate {{c1::increases}} when performing rolls, loops, or other freeflying maneuvers.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "9bNP|?nS{",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What happens to a visual altimeter when it's in the jumper's burble?<br><br>{{c1::Reads unreliably.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "t@gq5m`~;?",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to recover from a stall to full glide?<br>&nbsp; &nbsp;<br>{{c1::Smoothly raise the controls.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "fp$~;OBTxL",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe an aerodynamic stall as it applies to a ram-air canopy?<br><br>Stable state of decreased {{c1::glide}} and increased {{c2::rate of descent}}.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pCiP,,[Lh,",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When does a dynamic stall occur?<br><br>{{c1::At the end of a flare when the jumper begins to rock back under the canopy.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pRr}[KorSj",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What happens after a dynamic stall if the tail is held lower than the nose?<br><br>{{c1::Full stall.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "tq[<Y4FVBu",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to determine a canopy's optimum flare speed and depth for landing?<br><br>{{c1::Practice different rates of flare entry at different depths of flare.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "h&j@hI:)%0",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe your procedure for landing in high winds?<br><ol><li>{{c1::Stay well downwind of any obstacle}}</li><li>{{c2::Face into the wind early}}</li><li>{{c3::Disconnect the RSL}}</li><li>{{c4::Land with a PLF}}</li><li>{{c5::Pull one toggle down completely}}</li><li>{{c6::After landing, cut away if necessary}}</li></ol><br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "FYtZ_bY#G%",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A nine-cell canopy has {{c1::ten}} A-lines.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "xs@8Gq4v,5",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "To what part of the canopy do the steering lines (brake lines) connect?<br><br>{{c1::tail or trailing edge}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "lTeI6zPq$E",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What lines go through the rear slider grommets?<br><br>{{c1::C, D, and brakes}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "kM?fhBaNOn",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Where does the main pilot chute bridle attach to the canopy?<br><br>{{c1::top center}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "AKydXvaRVa",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who may pack a main parachute?<br><ul><li>{{c1::FAA rigger}}</li><li>{{c2::person jumping the parachute}}</li><li>{{c3::person under rigger's supervision}}</li></ul><br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "yF{WXL&,@&",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The main and reserve parachutes need to be packed every {{c1::180}} days.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "Dw`m:Vy-%/",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who is in command of the aircraft?<br><br>{{c1::pilot}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "Roeaa{Ib",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are two purposes for wearing seat belts in an aircraft?<br><ul><li>{{c1::to maintain the correct balance}}</li><li>{{c2::protection in a crash}}</li></ul><br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "pQ]}S2WZ,I",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::pilot}} is responsible for ensuring that the aircraft is in condition for safe flight.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "y.Ar-9kPlN",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The pilot of an unpressurized aircraft is required to breathe supplemental oxygen at {{c1::14,000}} feet MSL and above.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "b`Bv:8<x#<",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "All occupants of an unpressurized aircraft must be provided with supplemental oxygen at and above {{c1::15,000}} feet MSL.<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "BDI;*&rJx?",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In an aircraft with the exit door near the back, what must jumpers do to maintain the balance during exit procedures?<br><br>{{c1::Remain forward until it is time for their group to exit.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "L1i`}fA9o+",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the biggest danger to a jumper when flying the canopy pattern?<br><br>{{c1::other canopies}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "dMHi>J|{0<",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to avoid a canopy collision?<br><br>{{c1::See and remain clear of other jumpers.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "LhEQc|qq1A",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The RSL works by forming a {{c1::separable link between the main riser and reserve ripcord}} so that {{c2::cutting away the main activates the reserve, (if the RSL is hooked up).}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "eVZYs&9B^v",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What would happen if the main riser attached to the RSL breaks?<br><br>{{c1::The reserve deploys with the main still attached by the other riser.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "k@B)mD:=[{",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the best way to prevent risers from breaking?<br><br>{{c1::Inspection and maintenance; correct packing, tight line stowage, and stable deployment, all to prevent hard openings.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "y7A8+--v`|",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is one way to prevent a dual deployment?<br><br>{{c1::Initiate malfunction procedures high enough to cut away safely and avoid AAD activation.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "cXH^HITIKX",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is generally the best action to take in the biplane two-canopy-out scenario?<br><br>{{c1::Release the brakes on the front canopy only and steer that canopy gently; PLF.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "tmc<931y_7",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is generally the best action to take in the side-by-side two-canopy-out scenario?<br><br>{{c1::Release the brakes on the dominant canopy only and steer that canopy gently; or release the RSL (if time) and cut away; PLF.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "DfTRDZE)y@",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is generally the best action to take in the downplane&nbsp;two-canopy-out scenario?<br><br>{{c1::Release the RSL (if time) and cut away.}}<br>",
+                "<a href=\"https://uspa.org/skydiveschool/E\">United States Parachute Association &gt; Safety and Training &gt; Skydive School &gt; CAT E (uspa.org)</a>"
+            ],
+            "flags": 0,
+            "guid": "Oa87WLgE</",
+            "note_model_uuid": "9f14dccb-cb40-11ec-9fc6-34f39abc1078",
+            "tags": [
+                "SIM::Category_E_Quiz"
+            ]
+        }
+    ]
+}
